@@ -1,0 +1,39 @@
+1. 初始化项目
+npx @react-native-community/cli init SalesLive
+
+
+2. 配置环境变量
+  2.1增加下面路径到系统path变量
+    E:\tools\Android\sdk\emulator
+    E:\tools\Android\sdk\platform-tools
+
+  2.2 定义变量ANDROID_HOME
+    E:\tools\Android\sdk
+
+
+3. 安装并使用Agora sdk开发功能 
+npm install react-native-agora
+
+
+
+4. 运行app在Android设备上
+npx react-native run-android
+
+Agora-Demo\AgoraLive\android\app\src\main\AndroidManifest.xml
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+	
+5. 运行app在iOS设备上
+npx react-native run-ios
+
+
+
+
+
+
+
+
+
